@@ -21,7 +21,18 @@ h1 {
 
 h3 {
   font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(246, 228, 205);
+  
 }
+h3#front-end{
+    opacity: 0.8; 
+    padding: 15px;
+background-color: transparent;
+
+}
+
 .main-intro-part {
   padding: 160px;
 background-repeat: no-repeat;
@@ -31,4 +42,17 @@ background-size: cover;
 https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
 }
 
+i{
+    color: black;
+}
 
+.btn{
+    padding: 10px 25px;
+    background-color: rgb(222, 161, 82);
+    border: 1px solid rgb(222, 161, 82);
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(219, 140, 37);
+     border: 1px solid rgb(222, 161, 82);
+}
