@@ -8,7 +8,7 @@
   margin: 20px 50px auto;
   display: block;
 }
-nav{
+nav {
   font-family: var(--text-font);
 }
 h2,
@@ -36,8 +36,6 @@ h3 {
   text-align: center;
   padding: 20px;
 }
-
-
 
 h2 {
   font-size: 32px;
@@ -107,7 +105,10 @@ i {
 }*/
 #prjct {
   font-size: 44px;
-  margin-top: 50px ;
+
+  margin-top: 50px;
+ 
+
 }
 
 @media screen and (max-width: 600px) {
@@ -120,9 +121,9 @@ i {
   h3 {
     font-size: 12px;
   }
-.section h3{
-  font-size: 22px;
-}
+  .section h3 {
+    font-size: 22px;
+  }
   .main-intro-part {
     background-image: fit-content;
     padding: 20px;
@@ -133,4 +134,3 @@ i {
     font-size: 12px;
   }
 }
-
