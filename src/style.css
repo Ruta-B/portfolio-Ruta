@@ -79,10 +79,18 @@ h3#front-end {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
 }
 
-i {
-  color: black;
-}
+i{
+   color: rgb(35, 85, 85);
+  
 
+}
+#netlify-icon{
+   color: rgb(35, 85, 85);
+   min-width: 12px;
+   min-height: 16px;
+   max-width: 28px;
+   max-height: 37.6px;
+  }
 .btn {
   padding: 10px 25px;
   background-color: rgb(222, 161, 82);
@@ -109,6 +117,10 @@ i {
   margin-top: 50px;
  
 
+}
+.icons-contact{
+  font-size: 28px;
+ 
 }
 
 @media screen and (max-width: 600px) {
