@@ -8,7 +8,9 @@
   margin: 20px 50px auto;
   display: block;
 }
-
+nav{
+  font-family: var(--text-font);
+}
 h2,
 h1,
 h3,
@@ -18,6 +20,7 @@ h6 {
   font-family: var(--text-font);
   font-optical-sizing: auto;
 }
+
 h1 {
   font-weight: 500;
   font-style: normal;
@@ -33,6 +36,7 @@ h3 {
   text-align: center;
   padding: 20px;
 }
+
 
 
 h2 {
@@ -101,6 +105,10 @@ i {
     max-width: 500px;
   }
 }*/
+#prjct {
+  font-size: 44px;
+  margin-top: 50px ;
+}
 
 @media screen and (max-width: 600px) {
   h1 {
@@ -112,7 +120,9 @@ i {
   h3 {
     font-size: 12px;
   }
-
+.section h3{
+  font-size: 22px;
+}
   .main-intro-part {
     background-image: fit-content;
     padding: 20px;
@@ -123,3 +133,4 @@ i {
     font-size: 12px;
   }
 }
+
