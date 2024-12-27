@@ -10,7 +10,9 @@
 }
 nav {
   font-family: var(--text-font);
+
 }
+
 h2,
 h1,
 h3,
@@ -47,7 +49,7 @@ h3#front-end {
   background-color: transparent;
 }
 .section {
-  padding: 100px 40px;
+  padding: 60px 40px;
   max-width: 900px;
   display: block;
   margin: 20px auto;
