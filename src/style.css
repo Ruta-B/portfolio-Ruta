@@ -186,27 +186,21 @@ i{
     padding: 20px;
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
   }
-#netlify-icon,
-i{
-  font-size: 16px;
-}
-p{
+ 
+  #netlify-icon, i{
   font-size: 12px;
-}
-.contact-box h3{
+  }
+  p{
+  font-size: 12px;
+  }
+  .contact-box h3{
   padding: 0;
   font-size: 18px;
-}
-.contact-box .btn{
-  font-size: 12px;
-  flex-direction: column;
-  display: flex;
-  margin: auto;
-  justify-content: space-around;
-}
-.contact-box .btn a{
+  }
+
+ .contact-box .btn a{
   font-size: 12px;
   margin: auto;
   justify-content: space-around;
-}
+  }
 }
