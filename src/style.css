@@ -9,7 +9,7 @@ body{
 
 .intro-1 {
   text-align: center;
-  margin: 20px 50px auto;
+  margin: 20px 20px auto;
   display: block;
 }
 nav {
@@ -162,9 +162,15 @@ i{
 }*/
 #prjct {
   font-size: 44px;
-
   margin-top: 50px;
  
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: auto;
 }
 
 
@@ -181,26 +187,30 @@ i{
   .section h3 {
     font-size: 22px;
   }
+  .section{
+    padding: 10px 30px;
+  }
   .main-intro-part {
     background-image: fit-content;
     padding: 20px;
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
   }
- 
   #netlify-icon, i{
-  font-size: 12px;
+    font-size: 12px;
+    position: absolute;
+    margin-bottom: 5px;
   }
   p{
-  font-size: 12px;
+    font-size: 12px;
   }
   .contact-box h3{
-  padding: 0;
-  font-size: 18px;
+    padding: 0;
+    font-size: 18px;
   }
-
- .contact-box .btn a{
-  font-size: 12px;
-  margin: auto;
-  justify-content: space-around;
+  .contact-box .btn a{
+    font-size: 12px;
+    margin: auto;
+    justify-content: space-around;
   }
 }
+
