@@ -2,9 +2,8 @@
   --text-font: "Kreon", serif;
   --background-color: rgb(246, 228, 205);
 }
-body{
- 
-  background: linear-gradient(#542E38, #FFDFEA) no-repeat fixed ;
+body {
+  background: linear-gradient(#542e38, #ffdfea) no-repeat fixed;
 }
 
 .intro-1 {
@@ -14,7 +13,6 @@ body{
 }
 nav {
   font-family: var(--text-font);
-
 }
 
 h2,
@@ -36,7 +34,6 @@ p {
   font-family: var(--text-font);
   opacity: 60%;
   font-size: 14px;
- 
 }
 h3 {
   font-size: 16px;
@@ -53,32 +50,30 @@ h3#front-end {
   padding: 15px;
   background-color: transparent;
 }
-.email-link{
-  color: #542E38;
+.email-link {
+  color: #542e38;
   text-decoration: none;
-
 }
-.email-link:hover{
-  color: #F4EBA8;
+.email-link:hover {
+  color: #f4eba8;
   transition: 100ms ease-in-out;
 }
-.contact-box{
+.contact-box {
   border-radius: 10px;
   box-shadow: 0 4px 4px 5px #eed6e2;
   padding: 20px 20px;
 }
-footer{
+footer {
   margin-top: 40px;
 }
-.contact-box p{
+.contact-box p {
   text-align: center;
 }
-.contact-box .btn{
+.contact-box .btn {
   margin: auto;
   margin-right: 30px;
- 
 }
-.text{
+.text {
   border: 4px solid rgb(191, 158, 114);
 }
 .section {
@@ -86,16 +81,14 @@ footer{
   max-width: 900px;
   display: block;
   margin: 0 auto;
-  
 }
-.section-1{
+.section-1 {
   border: 4px solid rgb(191, 158, 114);
 }
 .section h1 {
   font-size: 60px;
   text-align: center;
-  padding:20px;
-  
+  padding: 20px;
 }
 
 .section p {
@@ -105,12 +98,10 @@ footer{
   line-height: 1.5;
 }
 .personal-image {
-  
-
   display: block;
   margin: 25px auto;
   border-image: fill;
-  padding:20px ;
+  padding: 20px;
 }
 .container {
   max-width: 900px;
@@ -121,35 +112,30 @@ footer{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/615/original/pexels-mastercowley-1128797.jpg?1735411798);
 }
 #netlify-icon,
-i{
-   color: #F4EBA8;
-    font-size: 28px;
-
+i {
+  color: #f4eba8;
+  font-size: 28px;
 }
 
-.btn{
+.btn {
   padding: 10px 25px;
-  background-color:#7f4658;
+  background-color: #7f4658;
   border: 1px solid rgb(191, 158, 114);
- 
-  
 }
- a{
+a {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  
-
 }
 .btn:hover {
   color: black;
-  background-color:  #FFDFEA;
+  background-color: #ffdfea;
   border: 1px solid rgb(191, 158, 114);
 }
-.contact-box .btn a:hover{
+.contact-box .btn a:hover {
   color: black;
 }
 /*@media screen and (max-width: 600px)  {
@@ -164,16 +150,14 @@ i{
 #prjct {
   font-size: 44px;
   margin-top: 50px;
- 
 }
-ul{
+ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   padding: auto;
 }
-
 
 @media screen and (max-width: 600px) {
   h1 {
@@ -188,30 +172,30 @@ ul{
   .section h3 {
     font-size: 22px;
   }
-  .section{
+  .section {
     padding: 10px 30px;
   }
   .main-intro-part {
     background-image: fit-content;
     padding: 20px;
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/614/original/pexels-deeonederer-1212045.jpg?1735411567https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/615/original/pexels-mastercowley-1128797.jpg?1735411798https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/615/original/pexels-mastercowley-1128797.jpg?1735411798);
   }
-  #netlify-icon, i{
+  #netlify-icon,
+  i {
     font-size: 12px;
     position: absolute;
     margin-bottom: 5px;
   }
-  p{
+  p {
     font-size: 12px;
   }
-  .contact-box h3{
+  .contact-box h3 {
     padding: 0;
     font-size: 18px;
   }
-  .contact-box .btn a{
+  .contact-box .btn a {
     font-size: 12px;
     margin: auto;
     justify-content: space-around;
   }
 }
-
