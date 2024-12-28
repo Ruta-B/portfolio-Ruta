@@ -180,7 +180,7 @@ ul {
   .main-intro-part {
     background-image: fit-content;
     padding: 20px;
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/614/original/pexels-deeonederer-1212045.jpg?1735411567https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/615/original/pexels-mastercowley-1128797.jpg?1735411798https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/615/original/pexels-mastercowley-1128797.jpg?1735411798);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/615/original/pexels-mastercowley-1128797.jpg?1735411798https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/615/original/pexels-mastercowley-1128797.jpg?1735411798);
   }
   #netlify-icon,
   i {
@@ -199,5 +199,16 @@ ul {
     font-size: 12px;
     margin: auto;
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 340px){
+  .contact-box .btn {
+    display: block;
+    border-radius: 100px;
+    margin: 1px auto;
+    text-align: center;
+    padding-top: 10px;
+    flex-wrap: wrap;
   }
 }
