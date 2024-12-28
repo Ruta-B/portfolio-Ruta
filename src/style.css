@@ -3,7 +3,8 @@
   --background-color: rgb(246, 228, 205);
 }
 body{
-  background-image: linear-gradient(#542E38, #FFDFEA);
+ 
+  background: linear-gradient(#542E38, #FFDFEA) no-repeat fixed ;
 }
 
 .intro-1 {
