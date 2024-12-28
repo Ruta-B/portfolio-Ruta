@@ -66,8 +66,9 @@ h3#front-end {
   border-radius: 10px;
   box-shadow: 0 4px 4px 5px #eed6e2;
   padding: 20px 20px;
-
-
+}
+footer{
+  margin-top: 40px;
 }
 .contact-box p{
   text-align: center;
