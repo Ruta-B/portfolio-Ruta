@@ -55,7 +55,7 @@ h3#front-end {
   padding: 60px 40px;
   max-width: 900px;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto;
   
 }
 .section-1{
@@ -64,6 +64,8 @@ h3#front-end {
 .section h1 {
   font-size: 60px;
   text-align: center;
+  padding:20px;
+  
 }
 .section h2 {
   font-size: 18px;
@@ -76,12 +78,12 @@ h3#front-end {
   line-height: 1.5;
 }
 .personal-image {
-  max-width: 400px;
- 
+  
+
   display: block;
-  margin: 30px  auto;
+  margin: 25px auto;
   border-image: fill;
-  padding: 0;
+  padding:20px ;
 }
 .container {
   max-width: 900px;
@@ -94,19 +96,13 @@ h3#front-end {
   background-size: cover;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
 }
-
+#netlify-icon,
 i{
    color: #F4EBA8;
-  
+    font-size: 28px;
 
 }
-#netlify-icon{
-   color: #F4EBA8;
-   min-width: 12px;
-   min-height: 16px;
-   max-width: 28px;
-   max-height: 37.6px;
-  }
+
 .btn{
   padding: 10px 25px;
   background-color:#7f4658;
@@ -114,7 +110,7 @@ i{
 }
 .btn:hover {
   color: black;
-  background-color: rgb(219, 140, 37);
+  background-color:  #FFDFEA;
   border: 1px solid rgb(191, 158, 114);
 }
 
@@ -132,12 +128,8 @@ i{
 
   margin-top: 50px;
  
+}
 
-}
-.icons-contact{
-  font-size: 28px;
- 
-}
 
 @media screen and (max-width: 600px) {
   h1 {
@@ -157,8 +149,8 @@ i{
     padding: 20px;
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/214/original/background-6728572_1280.jpg?1734695256);
   }
-
-  .icons-contact {
-    font-size: 12px;
-  }
+#netlify-icon,
+i{
+  font-size: 16px;
+}
 }
