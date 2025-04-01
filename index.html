@@ -111,11 +111,13 @@
         <a href="contact.html" target="_blank" rel="noopener noreferrer"><button class="btn btn-primary btn-default shadow mb-4">Contact me</button></a>
       
     </div>
-    <div class="container">
-   
-      <div class="row">
-        
-        <div class="col text-center pt-4 text ">
+    <div class="slideshow-container">
+
+<div class="mySlides ">
+  <div class="row">
+   <div class="col-6 ">
+  <img src="images/world-time.png"  alt="World clock project picture" style="max-width:500px"></div>
+          <div class="col text-center pt-4 text ">
           <h2>World clock</h2>
           <p>
             Access world time at any time of the day
@@ -127,15 +129,59 @@
               <br />
               <button class="btn btn-primary mb-4">World time</button></a>
         </div>
-<div class="col mb-3 d-none d-md-block p-3" >
-            <img
-            src="images/world-time.png"
-            alt="World clock project picture"
-            class="img-fluid shadow rounded mx-auto d-block"
-            style="max-width: 200px"
-          />
+</div>
+  <div class="name">World time</div>
+</div>
+
+<div class="mySlides ">
+  <div class="row">
+    <div class="col-6"><img src="images/react wether prjct.png" alt="Weather app" style="max-width:500px"></div>
+   <div class="col text-center pt-4 text ">
+          <h2>Weather prognose</h2>
+          <p>
+            Access daily weather prognose around the world.
+            <a
+              href="https://w-app-new.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            > </p>
+              <br />
+              <button class="btn btn-primary mb-4">Weather app</button></a>
         </div>
-      </div>
+  <div class="name">Weather prognose</div>
+</div>
+</div>
+
+<div class="mySlides ">
+  <div class="row">
+  <div class="col-6">
+  <img src="images/christmas-recipes.png" style="max-width:500px"></div>
+  <div class="col text-center pt-4 text ">
+          <h2>AI Christmas recipe generator</h2>
+          <p>
+            Find the best recipe to surprise your Christmas guests with home made food/ cookies .
+            <a
+              href="https://christmas-recip-generator.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            > </p>
+              <br />
+              <button class="btn btn-primary mb-4">Christmas recipes</button></a>
+        </div></div>
+  <div class="name">AI Christmas recipe generator</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+   
     
       <footer>
         <div class="contact-box mb-4 d-flex justify-content-between mt-2 ml-2">
@@ -160,5 +206,33 @@
      
       </footer>
     </div>
+    <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
   </body>
 </html>
