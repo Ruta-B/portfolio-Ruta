@@ -1,10 +1,9 @@
 :root {
   --text-font: "Kreon", serif;
   --background-color: rgb(246, 228, 205);
-  --{box-sizing: border-box}
-
-
-
+  -- {
+    box-sizing: border-box;
+  }
 }
 
 body {
@@ -18,9 +17,7 @@ body {
 }
 nav {
   font-family: var(--text-font);
- 
 }
-
 
 h2,
 h1,
@@ -58,14 +55,14 @@ h3#front-end {
   background-color: transparent;
 }
 
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -83,21 +80,19 @@ margin: 0 auto;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
-.name
-   {
+.name {
   color: #0d0a0a;
   font-size: 18px;
   padding: 8px 12px;
- 
+
   bottom: 8px;
   width: 100%;
   text-align: center;
 }
-
-
 
 .dot {
   cursor: pointer;
@@ -110,7 +105,8 @@ margin: 0 auto;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 .email-link {
@@ -265,7 +261,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 340px) {
   .contact-box .btn {
     display: block;
     border-radius: 100px;
