@@ -117,6 +117,14 @@ h3#front-end {
   color: #f4eba8;
   transition: 100ms ease-in-out;
 }
+.resume a {
+  color: #542e38;
+  text-decoration: none;
+}
+.resume a:hover {
+  color: #f4eba8;
+  transition: 100ms ease-in-out;
+}
 .contact-box {
   max-width: 900px;
   margin: 0 auto;
